@@ -5,17 +5,17 @@
   font-style: normal;
 }
 html {
-  font-size: 24px;
+  font-size: 28px;
   box-sizing: border-box;
 }
 @media screen and (max-width: 960px) {
   html {
-    font-size: 18px;
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 640px) {
   html {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -58,7 +58,7 @@ body {
   align-items: center;
 }
 .flex-full-justify > .flex-inner {
-  max-width: 40rem;
+  max-width: 45rem;
 }
 
 h1 {

@@ -15,7 +15,10 @@
                     doc.innerHTML = this.responseText;
                     doc.removeAttribute("id");
                 }
-                if (this.status == 404) doc.innerHTML = "Page not found.";
+                if (this.status == 404){
+xhttp.open("GET", "index.html", true);
+        xhttp.send();
+}
             }
         }
         xhttp.open("GET", "index.html", true);

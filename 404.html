@@ -15,7 +15,7 @@
                     doc.innerHTML = this.responseText;
                     doc.removeAttribute("id");
                 }
-                if (this.status == 404) xhttp.open("GET", "index.html", true);
+                if (this.status == 404) xhttp.open("GET", "index.html", true).send();
 // window.location.replace("https://aisfamily.cf")
             }
         }
